@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Tarea8_2.props" />
+</Project>

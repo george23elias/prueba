@@ -1,0 +1,15 @@
+@using Entity.Animal;
+@model Entity.Animal.Animal
+
+<h2>Agregar Animal</h2>
+<form asp-action="Crear" method="post">
+    <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="Nombre" required />
+    </div>
+    <div>
+        <label for="tipo">Tipo:</label>
+        <input type="text" id="tipo" name="Tipo" required />
+    </div>
+    <button type="submit">Agregar</button>
+</form>
